@@ -1,11 +1,11 @@
-# llama3 implemented from scratch
-in this file, i implemented llama3 from scratch, one tensor and matrix multiplication at a time.
-<br>
-also, im going to load tensors directly from the model file that meta provided for llama3, you need to download the weights before running this file.
-here is the offical link to download the weights: https://llama.meta.com/llama-downloads/
+# Deconstructing QWen2 from the Ground Up
+
+In this project, I will demonstrate how to deconstruct QWen2 from scratch. Specifically, I will explore how to complete a Chinese proverb which is generating a "退" from the input input_text="学习如逆水行舟，不进则". I hope this project will help everyone gain a better understanding of the structure of QWen2, and also want to take this opportunity to promote China's LLM.
+
+Here is the offical link to download the weights: https://www.modelscope.cn/models/qwen/Qwen2-7B/files
 
 <div>
-    <img src="images/archi.png"/>
+    <img src="images/all_steps.png"/>
 </div>
 
 ## tokenizer
