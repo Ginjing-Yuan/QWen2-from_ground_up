@@ -1,4 +1,5 @@
 # Deconstructing QWen2 from the Ground Up
+[中文版](./Chinese V.ipynb)
 
 In this project, I will demonstrate how to deconstruct QWen2 from scratch. Specifically, I will explore how to complete a Chinese proverb which is generating a "退" from the input input_text="学习如逆水行舟，不进则". I hope this project will help everyone gain a better understanding of the structure of QWen2, and also want to take this opportunity to promote China's LLM.
 
@@ -33,11 +34,6 @@ model_path="Qwen/Qwen2-7B"
 tokenizer=AutoTokenizer.from_pretrained(model_path)
 model = AutoModelForCausalLM.from_pretrained(model_path, torch_dtype=torch.float32)
 ```
-
-
-
-
-    'hello world!'
 
 
 
