@@ -392,7 +392,7 @@ output_states = output_states+token_embeddings_unnormalized
 
 
 ```python
-second_normalized = rms_norm(token_embeddings_unnormalized, model["model.layers.0.post_attention_layernorm.weight"])
+second_normalized = rms_norm(output_states, model["model.layers.0.post_attention_layernorm.weight"])
 ```
 
 
